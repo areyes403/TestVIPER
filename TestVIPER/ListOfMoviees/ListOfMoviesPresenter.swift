@@ -19,6 +19,7 @@ protocol ListOfMoviesUI: AnyObject {
 
 
 class ListOfMoviesPresenter: ListOfMoviesPresentable{
+    
     weak var ui: ListOfMoviesUI?
     
     private let listOfMoviesInteractor: ListOfMoviesInteractable

@@ -11,6 +11,7 @@ import UIKit
 
 class ListOfMoviesView: UIViewController{
     
+    
     private var moviesTableView: UITableView = {
         let tableView = UITableView()
         tableView.translatesAutoresizingMaskIntoConstraints = false

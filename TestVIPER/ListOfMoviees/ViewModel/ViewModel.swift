@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct ViewModel{
     var title: String
     var overview: String

@@ -52,6 +52,7 @@ class MovieCellView: UITableViewCell{
         addSubview(movieName)
         addSubview(movieDescription)
         
+        
         NSLayoutConstraint.activate([
             movieImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 12),
             movieImageView.topAnchor.constraint(equalTo: topAnchor,constant: 12),

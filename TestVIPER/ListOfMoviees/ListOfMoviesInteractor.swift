@@ -13,6 +13,7 @@ protocol ListOfMoviesInteractable: AnyObject{
     func getListOfMovies() async -> PopularMovieReponseEntity
 }
 
+
 class ListOfMoviesInteractor: ListOfMoviesInteractable{
     func getListOfMovies() async-> PopularMovieReponseEntity{
         let url = URL(string: "https://api.themoviedb.org/3/movie/popular?api_key=eb49209fa85af56ad2109927a43a575c")!

@@ -8,5 +8,6 @@
 import Foundation
 
 struct PopularMovieReponseEntity : Decodable{
+    
     let results: [PopularMovieEntity]
 }
